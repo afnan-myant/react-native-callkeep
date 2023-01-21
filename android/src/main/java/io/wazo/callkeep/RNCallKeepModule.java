@@ -995,6 +995,7 @@ public class RNCallKeepModule extends ReactContextBaseJavaModule {
 
     private Boolean hasPermissions() {
         ReactApplicationContext context = getContext();
+       Log.d(TAG, "[RNCallKeepModule] Afnan change code");
 
         boolean hasPermissions = true;
         for (String permission : permissions) {
